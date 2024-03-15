@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.face{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    position: fixed;
+    border-radius: 50%;
+    margin-top:-150px;
+    margin-left: -35px;
+    border: 1px solid;
+}
+.eyes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+.leye , .reye{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.leyeball,.reyeball{
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 59%;
+}
+.nose{
+    width: 130px;
+    height: 60px;
+    background: red;
+    border: 2px solid;
+    border-radius: 30px;
+    margin-left: 180px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ln, .rn{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.lear{
+    width: 150px;
+    height: 130px;
+    background-color: pink;
+    border-radius: 60% 60% 0% 0%;
+    border: 1px solid;
+
+}
+
+.lear{
+    width: 150px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 60% 60% 0% 0%;
+    border: 1px solid;
+
+}
+.rear{
+    width: 150px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 60% 60% 0% 0%;
+    border: 1px solid;
+    margin-left: 130px;
+}
+.ears{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.body:hover .face{
+    background: red;
